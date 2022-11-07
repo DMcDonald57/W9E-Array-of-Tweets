@@ -1,4 +1,4 @@
-let tweets = [{tweet: `Great work by the team`,
+let twitter = [{tweet: `Great work by the team`,
             userName: `bob21`,
             createdAt: `02-15-2022`,
             userAge: 17},
@@ -34,8 +34,28 @@ let tweets = [{tweet: `Great work by the team`,
             userName: `MandM99`,
             createdAt: `05-31-2022`,
             userAge: 18},
-            {tweet: `Mixed feeling about. Not to sure`,
+            {tweet: `Mixed feeling about it. Not to sure`,
             userName: `MrGrant`,
             createdAt: `09-10-2022`,
             userAge: 45}
 ]
+
+// let counter = 0;
+// while (counter < twitter.length) {
+//     if (twitter,[`userage`] >=18)[counter]; {
+//     console.log(twitter,[`tweet`]);
+//     console.log(twitter,[`userName`]);
+//     console.log(twitter,[`createdAt`]);
+// }
+//     counter = counter +1;
+    
+// }
+
+for (let counter = 0; counter < twitter.length; counter++) {
+    if (twitter,['userage'] >18[counter]) {
+        console.log(twitter,[`tweet`]);
+        console.log(twitter,[`userName`]);
+        console.log(twitter,[`createdAt`])
+    }
+
+}
