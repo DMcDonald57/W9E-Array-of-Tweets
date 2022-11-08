@@ -51,11 +51,13 @@ let twitter = [{tweet: `Great work by the team`,
     
 // }
 
+//The for loop to display userage under 18
+
 for (let counter = 0; counter < twitter.length; counter++) {
-    if (twitter,['userage'] >18[counter]) {
-        console.log(twitter,[`tweet`]);
-        console.log(twitter,[`userName`]);
-        console.log(twitter,[`createdAt`])
+    if (twitter,['userage'] >18, [counter]); {
+        console.log(twitter,[`tweet`][counter]);
+        console.log(twitter,[`userName`][counter]);
+        console.log(twitter,[`createdAt`][counter])
     }
 
 }
